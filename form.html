@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Test de link</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            input[type="Text"] {
+                background-color: lightgray;
+            }
+            input[type=password] {
+                background-color: lightpink;
+            }
+            input[type="number"] {
+                background-color: lightblue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Registro</h1>
+        <p>Rellena los siguientes campos</p>
+        <form>
+            <div>
+                <input name="nombre" type="Text" placeholder="Nombre">
+                <input name="contra" type="password" placeholder="Contraseña">
+                <input name="edad" type="number" placeholder="Edad" min="0" max="100">
+            </div>
+            <div>
+                <input name="color" type="radio" value="rojo" checked> Rojo
+                <input name="color" type="radio" value="verde"> Verde
+                <input name="color" type="radio" value="azul"> Azul
+                <input name="color" type="radio" value="otro"> Otro
+            </div>
+            <div>
+                <input name="pais" list="paises" placeholder="País">
+                <datalist id="paises">
+                    <option value="España">
+                    <option value="Andorra">
+                    <option value="Francia">
+                    <option value="Alemania">
+                    <option value="Italia">
+                    <option value="Reino Unido">
+            </div>
+            
+                    
+                            
+                
+        </form>
+    </body>
+</html>
